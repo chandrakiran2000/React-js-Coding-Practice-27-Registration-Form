@@ -1,0 +1,258 @@
+/* Write your CSS code here */
+@media (max-width: 768px) {
+  .registration-form-card {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registration-form-heading {
+    color: #ea580c;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form-card {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    overflow: auto;
+  }
+
+  .input-first-name-card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .input-label-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #475569;
+  }
+  .input-first-name {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #cbd2d9;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .input-required {
+    border: 2px solid #ea580c;
+  }
+  .first-name-error-msg {
+    color: #ff0b37;
+    font-size: 15px;
+  }
+
+  .input-last-name-card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .input-last-name {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #cbd2d9;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .input-required {
+    border: 2px solid #ea580c;
+    background-color: #fef2f4;
+  }
+  .last-name-error-msg {
+    color: #ff0b37;
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    background-color: #ea580c;
+    color: #ffffff;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 90%;
+  }
+
+  .success-card {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 70%;
+    min-height: 40vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    overflow: auto;
+  }
+  .success-img {
+    height: 80px;
+  }
+  .success-heading {
+    color: #475569;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .success-btn {
+    background-color: #ea580c;
+    color: #ffffff;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-form-card {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registration-form-heading {
+    color: #ea580c;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form-card {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+  }
+
+  .input-first-name-card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .input-label-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #475569;
+  }
+  .input-first-name {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #cbd2d9;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .input-required {
+    border: 2px solid #ea580c;
+  }
+  .first-name-error-msg {
+    color: #ff0b37;
+    font-size: 15px;
+  }
+
+  .input-last-name-card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .input-last-name {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #cbd2d9;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+  .input-required {
+    border: 2px solid #ea580c;
+    background-color: #fef2f4;
+  }
+  .last-name-error-msg {
+    color: #ff0b37;
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    background-color: #ea580c;
+    color: #ffffff;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+  }
+
+  .success-card {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+  }
+  .success-img {
+    height: 80px;
+  }
+  .success-heading {
+    color: #475569;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .success-btn {
+    background-color: #ea580c;
+    color: #ffffff;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 215px;
+  }
+}
